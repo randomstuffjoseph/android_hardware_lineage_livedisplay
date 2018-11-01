@@ -33,13 +33,6 @@ Return<bool> AutoContrast::setEnabled(bool enabled) {
     return bool {};
 }
 
-
-// Methods from ::android::hidl::base::V1_0::IBase follow.
-
-//IAutoContrast* HIDL_FETCH_IAutoContrast(const char* /* name */) {
-    //return new AutoContrast();
-//}
-//
 }  // namespace implementation
 }  // namespace V2_0
 }  // namespace livedisplay
