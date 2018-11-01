@@ -33,13 +33,6 @@ Return<bool> AdaptiveBacklight::setEnabled(bool enabled) {
     return bool {};
 }
 
-
-// Methods from ::android::hidl::base::V1_0::IBase follow.
-
-//IAdaptiveBacklight* HIDL_FETCH_IAdaptiveBacklight(const char* /* name */) {
-    //return new AdaptiveBacklight();
-//}
-//
 }  // namespace implementation
 }  // namespace V2_0
 }  // namespace livedisplay
