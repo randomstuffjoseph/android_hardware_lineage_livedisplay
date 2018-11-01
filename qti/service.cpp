@@ -26,11 +26,11 @@
 #include "PictureAdjustment.h"
 #include "SunlightEnhancement.h"
 
-using android::hardware::configureRpcThreadpool;
-using android::hardware::joinRpcThreadpool;
+using android::OK;
 using android::sp;
 using android::status_t;
-using android::OK;
+using android::hardware::configureRpcThreadpool;
+using android::hardware::joinRpcThreadpool;
 
 using ::vendor::lineage::livedisplay::V2_0::IAdaptiveBacklight;
 using ::vendor::lineage::livedisplay::V2_0::implementation::AdaptiveBacklight;
